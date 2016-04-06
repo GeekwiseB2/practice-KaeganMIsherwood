@@ -1,0 +1,19 @@
+.col-md-9{
+ height: 500px;
+ width: 500px;
+ background-color: red
+}
+
+.col-md-9 h3{
+  text-align: center;
+}
+
+.col-md-3{
+height: 500px;
+width: 250px;
+background-color: blue;
+}
+
+.col-md-3 h1{
+text-align:center;
+}
