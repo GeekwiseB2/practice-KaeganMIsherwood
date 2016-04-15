@@ -1,11 +1,12 @@
+.container-fluid{
+ background-color: #098757;
+ padding: 20px;
+ border: 10px solid #123456;
+}
 .col-md-9{
  height: 500px;
  width: 500px;
- background-color: red
-}
-
-.col-md-9 h3{
-  text-align: center;
+ background-color: red;
 }
 
 .col-md-3{
@@ -14,6 +15,64 @@ width: 250px;
 background-color: blue;
 }
 
-.col-md-3 h1{
-text-align:center;
+.header{
+background-color: #654321;
+padding: 20px;
+border: 3px solid black;
+}
+
+.nav{
+  background-color: #999;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+.example{
+  display: inline-block;
+}
+
+.inner-div{
+background-color: green;
+position: fixed;
+  z-index: 1000;
+}
+
+.content{
+  background-color: #437819;
+  padding: 20px;
+  border: 3px solid black;
+  height: 300px;
+}
+
+.aside{
+  background-color: #567342;
+  padding: 20px;
+  border: 3px solid black;
+  height:300px;
+}
+
+.promo{
+  background-color: orange;
+  padding: 20px;
+  border: 3px solid black;
+  height:300px;
+}
+
+.footer{
+  background-color: #559300;
+  padding: 20px;
+  border: 3px solid salmon;
+  height:300px;
+}
+
+@media screen and (max-width: 768px){
+  .promo {
+    background-color: gray;
+  }
+
+}
+@media screen and (max-width: 375px){
+  .promo {
+    background-color: #543672;
+  }
 }
